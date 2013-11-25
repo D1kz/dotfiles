@@ -1,0 +1,8 @@
+{
+	"version": "2012.06.06.1611.2",
+    "statusbar_modified_time": true,
+    "statusbar_file_size": true,
+    "disabled_menuitem_copy_dir_path": false,
+    "disabled_menuitem_empty": false,
+    "default_browser": "chrome"
+}
