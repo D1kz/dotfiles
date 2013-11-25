@@ -3,6 +3,7 @@
 	[
 		"Alignment",
 		"BracketHighlighter",
+		"DocBlockr",
 		"Emmet",
 		"Git",
 		"HTML5",
@@ -13,6 +14,7 @@
 		"SFTP",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
+		"Tag",
 		"Theme - Soda"
 	]
 }
