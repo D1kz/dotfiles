@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
 		"Emmet",
 		"HTML5",
 		"SideBarEnhancements",
