@@ -31,7 +31,8 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		".settings"
 	],
 	"font_face": "Consolas",
 	"font_size": 14,
