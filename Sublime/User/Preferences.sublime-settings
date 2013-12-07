@@ -1,4 +1,6 @@
 {
+	"auto_complete_commit_on_tab": true,
+	"auto_complete": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
 	"draw_minimap_border": true,
