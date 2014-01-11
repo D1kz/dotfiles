@@ -1,0 +1,18 @@
+[
+    //////////////////////////////////
+    // OS Specific User Files commands
+    //////////////////////////////////
+    // Force Copy OS Specific user files
+    {
+        "caption": "Os Specific User Files: Update User Files",
+        "command": "copy_os_user_files"
+    },
+    {
+        "caption": "Os Specific User Files: Backup User Files",
+        "command": "backup_os_user_files"
+    },
+    {
+        "caption": "Os Specific User Files: Clean Orphaned Backup Files",
+        "command": "clean_orphaned_os_user_files"
+    }
+]

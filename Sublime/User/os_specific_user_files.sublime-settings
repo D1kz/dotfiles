@@ -1,0 +1,23 @@
+{
+    "linux": {
+        "directories": {},
+        "files": {
+            "Preferences.sublime-settings": "Preferences.sublime-settings",
+        },
+        "rename": {}
+    },
+    "osx": {
+        "directories": {},
+        "files": {
+            "Preferences.sublime-settings": "Preferences.sublime-settings",
+        },
+        "rename": {}
+    },
+    "windows": {
+        "directories": {},
+        "files": {
+            "Preferences.sublime-settings": "Preferences.sublime-settings",
+        },
+        "rename": {}
+    }
+}
