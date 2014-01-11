@@ -1,6 +1,6 @@
 *.cache
 *.pyc
-Preferences.sublime-settings
+/Preferences.sublime-settings
 
 /Package\ Control.last-run
 Package Control.ca-bundle
