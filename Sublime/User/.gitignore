@@ -1,2 +1,9 @@
-Package\ Control.last-run
 *.cache
+*.pyc
+./Preferences.sublime-settings
+
+/Package\ Control.last-run
+Package Control.ca-bundle
+Package Control.ca-list
+Package Control.cache/
+Package Control.system-ca-bundle
