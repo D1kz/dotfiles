@@ -1,0 +1,21 @@
+[
+    // map Esc vi/vim mode
+    {
+        "keys": ["j", "k"],
+        "command": "set_action",
+        "args": {"action": "vi_esc"},
+        "context": [
+            {"key": "vi_must_change_mode"},
+            {"key": "vi_is_buffer"},
+            {"key": "vi_mode_insert"}
+        ]
+    },
+    // Toggle Vintageous plugin on/off
+    {
+        "keys": ["ctrl+k", "ctrl+o"],
+        "command": "toggle_vintageous",
+        "context": [
+            {"key": "panel_visible", "operand": false}
+        ]
+    }
+]
