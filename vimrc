@@ -41,6 +41,7 @@ set shiftround      " round indent to multiple of 'shiftwidth'
 set softtabstop=4
 set expandtab
 set smarttab
+set pastetoggle=<F2>
 
 " Backspace
 set backspace=indent
@@ -248,46 +249,46 @@ nmap <silent> <C-l> <C-W><C-l>
 " Scripts and plugins
 "------------------------"
 filetype off        " Required by Vundle
-set runtimepath+=~/.vim/bundle/vundle/
-call vundle#rc()
+set runtimepath+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-" Required by vundle
-Bundle 'gmarik/vundle'
+" Let Vundle manager Vundle, required
+Plugin 'gmarik/Vundle.vim'
 
 " Git wrapper for vim
-Bundle 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 
 " Syntax and error highlighter for Vim
-Bundle 'Syntastic'
+Plugin 'Syntastic'
 
 " The silver searcher
-Bundle 'rking/ag.vim'
+Plugin 'rking/ag.vim'
 
 " ctrlp.vim
-Bundle 'kien/ctrlp.vim'
+Plugin 'kien/ctrlp.vim'
 
 " Powerful Vim undo
-Bundle 'mbbill/undotree'
+Plugin 'mbbill/undotree'
 nnoremap <F5> :UndotreeToggle<cr>
 
 " Quoting/parenthesizing made simple
-Bundle 'tpope/vim-surround'
+Plugin 'tpope/vim-surround'
 
 " Comment Vim plugin
-Bundle 'tomtom/tcomment_vim'
+Plugin 'tomtom/tcomment_vim'
 
 " For text filtering and alignment
-Bundle 'godlygeek/tabular'
+Plugin 'godlygeek/tabular'
 
 " ctrlp c matching
-Bundle 'JazzCore/ctrlp-cmatcher'
+Plugin 'JazzCore/ctrlp-cmatcher'
 let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
 
 " status bar for vim
-Bundle 'bling/vim-airline'
+Plugin 'bling/vim-airline'
 let g:airline_powerline_fonts=1
 
-Bundle 'scrooloose/nerdtree.git'
+Plugin 'scrooloose/nerdtree.git'
 nmap ,nt :NERDTreeToggle<cr>
 
 " Show hidden files in NERDTree
@@ -298,16 +299,17 @@ let NERDTreeShowBookmarks=1
 " autocmd VimEnter * NERDTree
 " autocmd VimEnter * wincmd p
 
-Bundle 'Rykka/colorv.vim'
+Plugin 'Rykka/colorv.vim'
 " needed for fetching schemes online.
-Bundle 'mattn/webapi-vim'
+Plugin 'mattn/webapi-vim'
 
 " Color schemes
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'nanotech/jellybeans.vim'
-Bundle 'zeis/vim-kolor'
-Bundle 'morhetz/gruvbox'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'zeis/vim-kolor'
+Plugin 'morhetz/gruvbox'
 
+call vundle#end()
 filetype plugin indent on
 
 " Spelling correction. Add yours below.
