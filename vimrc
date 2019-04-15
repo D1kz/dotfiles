@@ -6,6 +6,8 @@
 "   Jeffrey Way's (jeffrey@jeffrey-way.com) version
 "   gmarik (https://github.com/gmarik/vimfiles/blob/master/vimrc)
 "
+scriptencoding utf-8
+set encoding=utf-8
 
 " Remove compatibility with Vi.
 set nocompatible
