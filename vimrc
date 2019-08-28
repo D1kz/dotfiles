@@ -310,6 +310,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'zeis/vim-kolor'
 Plugin 'morhetz/gruvbox'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on
